@@ -17,7 +17,7 @@ import vte.Version;
 // Constants used to version VTE features
 int[2] VTE_VERSION_COPY_AS_HTML = [0, 49];
 int[2] VTE_VERSION_HYPERLINK = [0, 49];
-int[2] VTE_VERSION_REGEX = [0, 46];
+int[2] VTE_VERSION_REGEX = [0, 60];
 int[2] VTE_VERSION_REGEX_MULTILINE = [0, 44];
 int[2] VTE_VERSION_BACKGROUND_OPERATOR = [0, 51];
 int[2] VTE_VERSION_CURSOR_COLOR = [0, 44];
