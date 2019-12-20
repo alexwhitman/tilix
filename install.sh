@@ -52,6 +52,7 @@ glib-compile-schemas $PREFIX/share/glib-2.0/schemas/
 
 export TILIX_SHARE="$PREFIX/share/tilix"
 
+mkdir -p "$TILIX_SHARE/resources" "$TILIX_SHARE/schemes" "$TILIX_SHARE/scripts"
 install -D "$TILIX_SHARE/resources" "$TILIX_SHARE/schemes" "$TILIX_SHARE/scripts"
 
 # Copy and compile icons
